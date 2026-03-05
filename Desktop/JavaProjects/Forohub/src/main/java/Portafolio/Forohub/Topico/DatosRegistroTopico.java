@@ -1,0 +1,15 @@
+package Portafolio.Forohub.Topico;
+
+import Portafolio.Forohub.Curso;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+
+public record DatosRegistroTopico(
+        @NotBlank String titulo,
+        @NotBlank String mensaje,
+        @NotNull Long usuario_id,
+        @NotNull Curso curso
+) {
+
+}
