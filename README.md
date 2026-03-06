@@ -61,7 +61,7 @@ Para garantizar que solo usuarios registrados interactúen con el foro, la API s
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/tu-usuario/forohub-api.git](https://github.com/tu-usuario/forohub-api.git)
+    git clone https://github.com/SAPM2003/ForoHub.git
     ```
 2.  Configura tus credenciales de base de datos en `src/main/resources/application.properties`.
 3.  Asegúrate de tener instalado el **JDK 25**.
