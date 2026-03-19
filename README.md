@@ -70,10 +70,6 @@ Para garantizar que solo usuarios registrados interactúen con el foro, la API s
     ./mvnw spring-boot:run
     ```
 
----
-
-###  Créditos e Inspiración
-Este proyecto fue desarrollado como parte del proceso de aprendizaje en **Alura Latam**. El diseño de la solución sigue el tablero de tareas de Trello proporcionado en el challenge, dividiendo grandes problemas en soluciones modulares y escalables.
 
 ---
 **Desarrollado por Samir Andres Pastran Montes**
