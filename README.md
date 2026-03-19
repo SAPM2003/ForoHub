@@ -1,6 +1,6 @@
 #  ForoHub API - Challenge Backend (Java & Spring Boot 3)
 
-![Java 25](https://img.shields.io/badge/Java-25-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java 21](https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot 3](https://img.shields.io/badge/Spring_Boot-3.4-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
@@ -23,7 +23,7 @@ Este backend actúa como el núcleo de un foro, permitiendo a los usuarios inter
 
 ##  Stack Tecnológico
 
-* **Lenguaje:** Java 25 (Aprovechando las últimas optimizaciones del JDK).
+* **Lenguaje:** Java 21+.
 * **Framework:** Spring Boot 3.x.
 * **Seguridad:** Spring Security + Auth0 JWT.
 * **Base de Datos:** MySQL (con soporte para migraciones vía Flyway/Hibernate).
@@ -64,7 +64,7 @@ Para garantizar que solo usuarios registrados interactúen con el foro, la API s
     git clone https://github.com/SAPM2003/ForoHub.git
     ```
 2.  Configura tus credenciales de base de datos en `src/main/resources/application.properties`.
-3.  Asegúrate de tener instalado el **JDK 25**.
+3.  Asegúrate de tener instalado el **JDK**.
 4.  Ejecuta la aplicación:
     ```bash
     ./mvnw spring-boot:run
